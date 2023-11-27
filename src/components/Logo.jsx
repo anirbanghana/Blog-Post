@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logo({width = '100px'}) {
   return (
-    <div>logo</div>
+    <img src='src/assets/pencile_logo.jpg'width={30} height={30} alt='Logo'/>
   )
 }
 
