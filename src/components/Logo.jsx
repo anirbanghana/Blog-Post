@@ -1,8 +1,9 @@
 import React from 'react'
+import pencile from '../assets/pencile_logo.jpg'
 
 function Logo({width = '100px'}) {
   return (
-    <img src='src/assets/pencile_logo.jpg'width={30} height={30} alt='Logo'/>
+    <img src={pencile} width={30} height={30} alt='Logo'/>
   )
 }
 
